@@ -1,7 +1,15 @@
 public class Vehicle {
     int maxspeed, wheels;
-    private String color;
     double fuelcapacity;
+    private String color;
+    Vehicle()
+    {
+        color="Red";
+    }
+    Vehicle(String c)
+    {
+        color=c;
+    }
 
     public String getColor()
     {
