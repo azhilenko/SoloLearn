@@ -4,11 +4,11 @@ public class Vehicle {
     private String color;
     Vehicle()
     {
-        color="Red";
+        this.setColor("Red");
     }
     Vehicle(String c)
     {
-        color=c;
+        this.setColor(c);
     }
 
     public String getColor()
