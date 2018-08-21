@@ -1,7 +1,12 @@
+import Samples.Animal;
+import Samples.Person;
+import Samples.Vehicle;
+
+
 public class MyClass {
     public static void main(String[] args) {
-//        Animal dog = new Animal();
-//        dog.bark();
+        Animal dog = new Animal();
+        dog.bark();
         int x=5;                    //numeric числовой
         addOneTo(x);                //type тип
         System.out.println(x);

@@ -1,3 +1,5 @@
+package Samples;
+
 public class Vehicle {
     int maxspeed, wheels;
     double fuelcapacity;

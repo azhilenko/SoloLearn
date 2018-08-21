@@ -1,8 +1,10 @@
+package Samples;
+
 public class Person {
     private String name;
     private int age;
 
-    Person(String n){
+    public Person(String n){
         this.name=n;
     }
     public int getAge(){
